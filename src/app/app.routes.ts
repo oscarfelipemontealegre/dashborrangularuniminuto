@@ -3,12 +3,18 @@ import { HomeComponent } from './home/home.component';
 import { ConfiguracionComponent } from './configuracion/configuracion.component';
 import { SoporteComponent } from './soporte/soporte.component';
 import { NgModule } from '@angular/core';
+import { LogoutComponent } from './logout/logout.component';
+import { LoginComponent } from './login/login.component';
+import { RegistroComponent } from './registro/registro.component';
 
 export const routes: Routes = [
-  { path: ' ', component: HomeComponent }, // Home route
+  { path: 'home', component: HomeComponent }, // Home route
   { path: 'configuracion', component: ConfiguracionComponent }, // Settings route
   { path: 'soporte', component: SoporteComponent }, // Support route
-  {path: '', redirectTo: '', pathMatch: 'full'},
+  { path: 'login', component: LoginComponent},
+  { path: 'salir', component: LogoutComponent },
+  {path:'registro', component: RegistroComponent},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
 ];
 
 @NgModule({
