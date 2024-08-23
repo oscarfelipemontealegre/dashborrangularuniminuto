@@ -1,0 +1,99 @@
+ {"mediciones" :[
+   {
+        "fecha": "2024-07-08T17:21:00-05:00",
+        "sensorId": "S12345",
+        "ubicacion": "Jardín trasero",
+        "mediciones": {
+        "humedad": 52.3,
+        "temperatura": 22.5,
+        "acidez": 6.8,
+        "conductividadElectrica": 0.25,
+        "nutrientes": {
+            "nitrógeno": 100,
+            "fósforo": 50,
+            "potasio": 200
+        }
+        }
+    },
+    {
+        "fecha": "2024-07-07T15:30:00-05:00",
+        "sensorId": "S12345",
+        "ubicacion": "Jardín trasero",
+        "mediciones": {
+        "humedad": 55.2,
+        "temperatura": 23.1,
+        "acidez": 6.9,
+        "conductividadElectrica": 0.26,
+        "nutrientes": {
+            "nitrógeno": 105,
+            "fósforo": 52,
+            "potasio": 205
+        }
+        }
+    },
+    {
+        "fecha": "2024-07-07T12:00:00-05:00",
+        "sensorId": "S12345",
+        "ubicacion": "Jardín trasero",
+        "mediciones": {
+        "humedad": 58.1,
+        "temperatura": 24.2,
+        "acidez": 7.0,
+        "conductividadElectrica": 0.27,
+        "nutrientes": {
+            "nitrógeno": 110,
+            "fósforo": 54,
+            "potasio": 210
+        }
+        }
+    },
+    {
+        "fecha": "2024-07-06T18:00:00-05:00",
+        "sensorId": "S12345",
+        "ubicacion": "Jardín trasero",
+        "mediciones": {
+        "humedad": 53.4,
+        "temperatura": 22.8,
+        "acidez": 6.7,
+        "conductividadElectrica": 0.24,
+        "nutrientes": {
+            "nitrógeno": 95,
+            "fósforo": 48,
+            "potasio": 190
+        }
+        }
+    },
+    {
+        "fecha": "2024-07-06T15:00:00-05:00",
+        "sensorId": "S12345",
+        "ubicacion": "Jardín trasero",
+        "mediciones": {
+        "humedad": 56.3,
+        "temperatura": 23.7,
+        "acidez": 6.8,
+        "conductividadElectrica": 0.25,
+        "nutrientes": {
+            "nitrógeno": 102,
+            "fósforo": 51,
+            "potasio": 202
+        }
+        }
+    },
+    {
+        "fecha": "2024-07-06T12:00:00-05:00",
+        "sensorId": "S12346",
+        "ubicacion": "Invernadero",
+        "mediciones": {
+        "humedad": 72.1,
+        "temperatura": 26.5,
+        "acidez": 5.9,
+        "conductividadElectrica": 1.20,
+        "nutrientes": {
+            "nitrógeno": 150,
+            "fósforo": 75,
+            "potasio": 300
+        }
+        }
+    }
+]
+}

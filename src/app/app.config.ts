@@ -8,17 +8,19 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { routes } from './app.routes';
+import { provideHttpClient } from '@angular/common/http';
 
 
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes), provideClientHydration(), provideAnimationsAsync(),
+  providers: [provideRouter(routes), provideClientHydration(), provideAnimationsAsync(), provideHttpClient(),
 
     importProvidersFrom(
       MatSidenavModule,
       MatToolbarModule,
       MatListModule,
-      MatIconModule
+      MatIconModule,
+    
     )
   ]
 };

@@ -6,6 +6,7 @@ import { NgModule } from '@angular/core';
 import { LogoutComponent } from './logout/logout.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
+import { DashbordgraficasComponent } from './dashbordgraficas/dashbordgraficas.component';
 
 export const routes: Routes = [
   { path: 'home', component: HomeComponent }, // Home route
@@ -14,6 +15,7 @@ export const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'salir', component: LogoutComponent },
   {path:'registro', component: RegistroComponent},
+  {path:'graficas', component: DashbordgraficasComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full'},
 ];
 

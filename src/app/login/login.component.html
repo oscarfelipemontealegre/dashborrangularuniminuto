@@ -1,15 +1,15 @@
-<div class="container">
+<div class="container form-group col-md-3">
     <h1>Login</h1>
-    <form action="/login" method="post">
-        <label for="Email">Email:</label>
-        <input type="text" id="username" name="username" placeholder="Digita tu Email" required>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Digita tu password" required>
-        <div>
-            <button type="submit">Login</button>
-            
-            <button type="submit">Registro</button>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" [(ngModel)]="username" name="username" placeholder="Enter your username" class="form-control" required>
         </div>
+        <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" [(ngModel)]="password" name="password" placeholder="Enter your password" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button> 
+        <button type="submit" class="btn btn-primary" [routerLink]="['/registro']">Registro</button> 
     </form>
 </div>
